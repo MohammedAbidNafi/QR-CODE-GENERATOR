@@ -21,7 +21,9 @@ function App() {
 
   return (
     <div className="flex items-center flex-col justify-center">
-      <h1 className="flex text-white text-5xl mt-[20px]">QR-CODE GENERATOR</h1>
+      <h1 className="flex text-white text-5xl mt-[20px] text-center">
+        QR-CODE GENERATOR
+      </h1>
 
       <div className="flex flex-col mt-[200px]  items-center justify-center bg-slate-200 w-[70%] py-[30px] rounded-md">
         <div className="flex flex-col w-[75%] ">
@@ -59,7 +61,7 @@ function App() {
         </div>
       </div>
       <div className="absolute bottom-0 mb-3">
-        <div>
+        <div className="text-center mx-[20px]">
           Made by Mohammed Abid Nafi and this project is open sourced and
           available in my{" "}
           <a
